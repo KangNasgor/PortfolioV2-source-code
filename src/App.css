@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+#tsparticle{
+  height: 1000px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .Applogo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.navbar{
+  width : 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: black;
+  list-style: none;
+}
+.navbar li a{
+  text-decoration: none;
+  color: white;
+}
+.noBorder{
+  border-style : none;
+}
+.centerText{
+  text-align: center;
+}
+.thumbnail{
+  margin-left: 5px;
+  margin-right : 5px;
+}
+.image{
+  opacity: 0.5;
+  transition: opacity 0.5s;
+  margin-right: 5px;
+  margin-left : 5px;
+  transition: 0.3s ease;
+}
+.title{
+  height : 100px;
+}
+.fade{
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+.visible {
+  opacity: 1;
+}
+
+.hidden {
+  opacity: 0;
+}
+.button{
+  height: 40px;
+  width : 60px;
+  margin-left : 6px;
+  margin-right : 6px;
+  border: none;
+  transition: 0.1s ease;
+}
+.button:hover{
+  box-shadow: 1px 1px 7px black;
+}
+.button:active{
+  box-shadow: 1px 1px 7px burlywood;
+}
+.image.active{
+  opacity: 1;
+  transform :translate3d(0px, 3px, 5px);
+  transition: 0.3s ease;
+}
+.imageSlider{
+  justify-content: center;
+  display: flex;
+}
+.clicked{
+  /* box-shadow: 3px 3px 3px black;
+  transform: translate3d(-5px, 3px, 5px);
+  transition: 0.3s ease; */
+  opacity: 0;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+

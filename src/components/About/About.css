@@ -1,0 +1,76 @@
+.imgprofile{
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 250px;
+    display: block;
+}
+.aboutpage{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    z-index: 1;
+}
+.title{
+    margin-top: 0px;
+    height: 35px;
+    color: white;
+}
+.gate{
+    height: 1px;
+    width: 200px;
+    background-color: white;
+}
+#tsparticles{
+    z-index: -1 !important;
+    display: fixed !important;
+}
+.content{
+    color : white;
+    margin-left: 200px;
+}
+#skills{
+    margin-left: 200px;
+    color : white;
+}
+#chartSkills{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 90px;
+}
+#contacts{
+    margin-left: 200px;
+}
+#telephone{
+    display : flex;
+}
+#iconTelephone{
+    font-size: 30px;
+}
+#number{
+    margin-top: 10px;
+}
+#email{
+    display: flex;
+}
+#iconEmail{
+    font-size: 25px;
+}
+#emailUsn{
+    margin-top: 6px;
+}
+#instagram{
+    display : flex;
+    margin-top: 7px;
+    color : white !important;
+}
+a:-webkit-any-link{
+    color : white;
+    text-decoration: none;
+}
+#iconInstagram{
+    font-size : 25px;
+}
+#instagramUsn{
+    margin-top: 4px;
+}
