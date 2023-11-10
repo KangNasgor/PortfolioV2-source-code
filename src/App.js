@@ -14,7 +14,7 @@ export default function App() {
 };
   return (
     <div>
-      <HashRouter>
+      <BrowserRouter>
       <ul className='navbar'>
       <li>
         <Link to="/"><a>Home</a></Link>
@@ -31,7 +31,7 @@ export default function App() {
           <Route path="/project" element={<Project />} />
           <Route path="/about" element={<About />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
